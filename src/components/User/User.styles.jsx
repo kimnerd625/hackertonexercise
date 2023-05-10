@@ -9,7 +9,16 @@ const Wrapper = styled.div`
 `;
 
 const UserInfo = styled.ul`
-  
+  width: 50%;
+
+  li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
 `;
 
 export {
