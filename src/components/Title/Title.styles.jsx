@@ -9,7 +9,7 @@ const TitleContainer = styled.div`
 `;
 
 const TitleText = styled.h1`
-  font-size : 24px;
+  font-size : 2rem;     //32px 기본은 16 !!! 
   font-weight : 600;
   color : #323232;
 
