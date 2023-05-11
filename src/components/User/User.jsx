@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from "axios";
 
 
-import { Wrapper, UserInfo } from "./User.styles";
+import { Wrapper, UserInfo, ChangeButton } from "./User.styles";
 
 function User() {
 
@@ -30,16 +30,24 @@ function User() {
         </button>
         <UserInfo>
           <li>
-            <span>이름:</span>
-            <span>{name}</span>
+            <span>닉네임</span>
+            <span>김너드</span>
           </li>
           <li>
-            <span>나이:</span>
-            <span>{age}</span>
+            <span>이메일</span>
+            <span>jihunkim625@yonsei.ac.kr</span>
           </li>
           <li>
-            <span>취미:</span>
-            <span>{hobby}</span>
+            <span>비밀번호</span>
+            <ChangeButton>변경하기</ChangeButton>
+          </li>
+          <li>
+            <span>생년월일</span>
+            <span>2000-02-02</span>
+          </li>
+          <li>
+            <span>캐시 잔액</span>
+            <span>89,575원</span>
           </li>
         </UserInfo>
       </Wrapper>
